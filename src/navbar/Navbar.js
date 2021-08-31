@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.scss'
 
-export default function Navbar() {
+function Navbar() {
     return(
         <div className="navbar">
             <h3>Menu</h3>
@@ -9,3 +9,5 @@ export default function Navbar() {
         </div>
     )
 }
+
+export default Navbar;

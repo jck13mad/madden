@@ -2,7 +2,7 @@ import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
 import "./Intro.scss";
 
-export default function Intro(){
+function Intro(){
     const textRef = useRef();
 
     // useEffect(() => {
@@ -21,3 +21,5 @@ export default function Intro(){
         </div>
     )
 }
+
+export default Intro;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.scss';
 
-export default function Projects() {
+function Projects() {
     return (
         <div className="projects">
             <h3>Project 1</h3>
@@ -9,3 +9,5 @@ export default function Projects() {
         </div>
     )
 }
+
+export default Projects;

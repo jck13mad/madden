@@ -1,0 +1,12 @@
+@import "../global.scss";
+
+.intro {
+    background-color: bisque;
+    width: 100%;
+    height: 92vh;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -15,9 +15,18 @@ function Intro(){
     // }, []);
 
     return (
-        <div className="intro">
-            <h5>Hello, I'm</h5>
-            <h1>John Madden</h1>
+        <div className="intro" id="intro">
+            <div className="name">
+                <h1>John</h1>
+                <h1>Madden</h1>
+            </div>
+            <div className="paragraph animation sequence fadeInBottom">
+                <p>No, not that John Madden...</p>
+            </div>
+
+            <div className="image">
+                <img className="oldComputer animation sequence fadeInBottom" src="../../oldComputer.png"></img>
+            </div>
         </div>
     )
 }

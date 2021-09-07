@@ -1,10 +1,10 @@
 import './App.css';
-import Intro from './intro/Intro';
-import Navbar from './navbar/Navbar';
-import Projects from './projects/Projects';
-import Blogs from './blogs/Blogs';
-import Contact from './contact/Contact';
-import About from './about/About';
+import Intro from './intro/Intro.jsx';
+import Navbar from './navbar/Navbar.jsx';
+import Projects from './projects/Projects.jsx';
+import Blogs from './blogs/Blogs.jsx';
+import Contact from './contact/Contact.jsx';
+import About from './about/About.jsx';
 
 function App() {
   return (

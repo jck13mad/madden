@@ -11,6 +11,25 @@
     }
 }
 
+@include mobile{
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .ityped-cursor {
+    animation: blink 1s infinite;
+    color: #3a0fe5;
+  }
+
+  @keyframes blink {
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 .name {
     float: right;
     position: relative;
@@ -18,11 +37,11 @@
     right: 12.5vw;
 }
 
-.paragraph {
+.incoming {
     position: relative;
     float: right;
     top: 70vh;
-    right: -27vw;
+    right: -25vw;
     width: 35vw;
     text-align: right;
     padding-top: 2vh;

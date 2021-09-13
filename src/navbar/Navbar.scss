@@ -11,15 +11,17 @@
 .navbar h1 {
     float: left;
     padding-left: 7vw;
-    color: #202c5e;
+    color: goldenrod;
     font-size: 10vh;
     transition: color 1s;
+    overflow: hidden;
 }
 
 .navbar.active {
-    background-color: #202c5e;
+    background-color: goldenrod;
     transition: background-color 1s;
-    // border-bottom: 5px solid white;
+    overflow: hidden;
+    border-bottom: 5px solid white;
 
     h1 {
         color: #fff0e5;
@@ -29,16 +31,17 @@
     .navbar-list a {
         color: #fff0e5;
         transition: color 2s;
+        transition: background ease-in .5s;
     }
 
     .navbar-list a:hover {
-        background: black;
+        color: #3a0fe5;
     }
 }
 
 .navbar-list a {
     text-decoration: none;
-    color: #202c5e;
+    color: goldenrod;
     // background-color: #fff0e5;
 }
 

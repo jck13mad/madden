@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 // import { Link } from 'react-router-link'
 import './Navbar.scss'
 
@@ -16,7 +16,6 @@ function Navbar() {
     }
 
     window.addEventListener('scroll', changeBackground)
-    console.log(window.scrollY)
 
     return(
         <div className={navbar ? 'navbar active' : 'navbar'} id="navbar">
@@ -24,19 +23,19 @@ function Navbar() {
             <nav>
                 <ul className="navbar-list">
                     <li>
-                        <a href="#about">About 668</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#projects">Projects 1169</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#blogs">Blogs 1670</a>
+                        <a href="#blogs">Blogs</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact 1904</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="">Resume</a>
+                        <a href="../JohnMaddenResume.pdf" download>Resume</a>
                     </li>
                 </ul>
             </nav>

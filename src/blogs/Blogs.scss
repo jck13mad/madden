@@ -1,7 +1,120 @@
 @import '../global.scss';
 
-.blogs {
-    background-color: blueviolet;
-    width: 100%;
-    height: 75vh;
-}
+    .blogs {
+        background-color: #3a0fe5;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .arrow {
+            height: 10vh;
+            position: absolute;
+            z-index: 2;
+            cursor: pointer;
+
+            &.left {
+                left: 5vw;
+                transform: rotate(180deg);
+            }
+
+            &.right {
+                right: 5vw;
+            }
+        }
+
+        .slider {
+            height: 350px;
+            display: flex;
+            position: absolute;
+            left: 0;
+            transition: all .5s ease-in;
+
+            .contain {
+                width: 100vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .item {
+                    width: 600px;
+                    height: 100%;
+                    background-color: white;
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .left {
+                        flex: 4;
+                        height: 80%;
+                        display: flex;
+                        background-color: white;
+                        align-items: center;
+                        justify-content: center; 
+                        border-right: 2px solid black;
+
+                        .leftContainer {
+                            width: 90%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            .imgContainer {
+                                width: 6vw;
+                                height: 12vh;
+                                border-radius: 50%;
+                                background-color: white;
+                                display: flex;
+                                padding-left: 2.5vw;
+                                align-items: center;
+                                justify-content: center;
+
+                                img {
+                                    width: 4.5vw;
+                                    height: 8vh;
+                                }
+                            }
+
+                            h2 {
+                                font-size: 2vh;
+                                color: goldenrod;
+                            }
+
+                            p {
+                                font-size: 1.5vh;
+                            }
+
+                            a {
+                                font-size: 2vh;
+                                font-weight: 600;
+                                padding-top: 2vh;
+                                color: black;
+                            }
+                        }
+                    }
+
+                    .right {
+                        flex: 8;
+                        height: 100%;
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+
+                        img {
+                            width: 20vw;
+                            height: 40vh;
+
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+

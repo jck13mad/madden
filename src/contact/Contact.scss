@@ -1,7 +1,119 @@
 @import '../global.scss';
 
 .contact {
-    background-color: cornflowerblue;
+    background-color: #fff0E5;
     width: 100%;
-    height: 60vh;
+    height: 86vh;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+
+    h1 {
+        padding-top: 3vh;
+        font-size: 6vh;
+        color: goldenrod;
+    }
+
+    .containing {
+        padding-left: 19vw;
+        margin: 0;
+        width: 60%;
+        height: 80%;
+    }
+
+    .bottom {
+        padding-top: 1vh;
+        padding-right: 3vw;
+    }
+
+    .bottom a {
+        text-decoration: none;
+        color: #3a0fe5;
+
+        &:hover {
+            color: goldenrod;
+        }
+    }
+
+    .bottom ul li{
+        display: inline-flex;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .btn {
+        margin-top: 4vh;
+    }
+
+    button {
+        width: 8vw;
+        height: 4vh;
+        display: inline-block;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        &:focus,
+        &:hover {
+         background-color: lighten(grey, 13%);
+         box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
+        }
+       
+        &:focus {
+         outline: 0;
+        }
+    }
 }
+
+Form {
+    padding: remy(32px);
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: remy(380px);
+    background-color: #fff0E5;
+    border-radius: 20deg;
+}
+
+.formBasicEmail .formBasicName .formBasicSubject .formBasicMessage {
+    padding: 0;
+    border: 0;
+   
+    & + & {
+     margin-top: 1rem;
+    }
+}
+
+input,
+textarea {
+//  display: block;
+ padding: .5rem .75rem;
+ width: 100%;
+ font-size: 1rem;
+ line-height: 1.25;
+ color: #55595c;
+ background-color: #fff;
+ background-image: none;
+ background-clip: padding-box;
+ border-top: 0;
+ border-right: 0;
+ border-bottom: 1px solid #3a0fe5;
+ border-left: 0;
+
+ &:focus {
+  outline: 0;
+  border-bottom-color: #3a0fe5;
+ }
+}
+
+.text-muted {
+    line-height: 5vh;
+    opacity: 0;
+}
+

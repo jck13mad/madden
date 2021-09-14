@@ -17,7 +17,7 @@ function Intro(){
 
     const changeBackground = () => {
         console.log(window.scrollX)
-        if (window.scrollX >= 65) {
+        if (window.scrollX <= 100) {
             setImage(true);
         } else {
             setImage(false);

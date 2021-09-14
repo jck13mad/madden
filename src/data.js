@@ -3,7 +3,7 @@ export const featuredProjects = [
     {
         id: 1,
         title: "Hidden Eats",
-        img: "./hidden-eats.png",
+        img: "../hidden-eats.png",
         link: "https://github.com/jck13mad/HiddenEats-Frontend"
     },
     {

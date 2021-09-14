@@ -8,7 +8,7 @@ function Blogs() {
     const data = [
         {
             id: 1,
-            icon: "../writing.png",
+            icon: "./writing.png",
             title: "Flatiron JS Project: Hidden Eats",
             desc: "Building Hidden Eats.",
             img: "../blog-1.jpg",
@@ -16,7 +16,7 @@ function Blogs() {
         },
         {
             id: 2,
-            icon: "../writing.png",
+            icon: "./writing.png",
             title: "Flatiron Rails Project: Photo-Synthesis",
             desc: "Building Photo-Synthesis.",
             img: "../blog-2.png",
@@ -24,7 +24,7 @@ function Blogs() {
         },
         {
             id: 3,
-            icon: "../writing.png",
+            icon: "./writing.png",
             title: "Why Software Engineering",
             desc: "How I chose this profession.",
             img: "../blog-3.jpg",

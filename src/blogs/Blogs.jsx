@@ -65,12 +65,12 @@ function Blogs() {
                 </div>
                 {currentSlide > 0 ? 
                     (
-                        <img src="../arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
+                        <img src="./arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
                     ) : null
                 }
                 {currentSlide < data.length-1 ? 
                     (
-                        <img src="../arrow.png" className="arrow right" alt="" onClick={() => handleClick()}/>
+                        <img src="./arrow.png" className="arrow right" alt="" onClick={() => handleClick()}/>
                     ) : null
                 }
             </div>

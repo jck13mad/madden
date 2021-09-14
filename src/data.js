@@ -3,7 +3,7 @@ export const featuredProjects = [
     {
         id: 1,
         title: "Hidden Eats",
-        img: "../hidden-eats.png",
+        img: "./hidden-eats.png",
         link: "https://github.com/jck13mad/HiddenEats-Frontend"
     },
     {
@@ -15,25 +15,25 @@ export const featuredProjects = [
     {
         id: 3,
         title: "Heading Up",
-        img: "../heading-up.jpg",
+        img: "./heading-up.jpg",
         link: "https://github.com/jck13mad/HeadingUp-secondary"
     },
     {
         id: 4,
         title: "Photo-Synthesis",
-        img: "../photo-synthesis.jpg",
+        img: "./photo-synthesis.jpg",
         link: "https://github.com/jck13mad/photo-synthesis"
     },
     {
         id: 5,
         title: "Covid-19 News Tracker",
-        img: "../covid-19.jpg",
+        img: "./covid-19.jpg",
         link: "https://github.com/jck13mad/covid_19_updates"
     },
     {
         id: 6,
         title: "Netflix Clone",
-        img: "../netflix-clone.jpg",
+        img: "./netflix-clone.jpg",
         link: ""
     }
 ];
@@ -42,7 +42,7 @@ export const designProjects = [
     {
         id: 6,
         title: "Hidden Eats",
-        img: "../hidden-eats.png",
+        img: "./hidden-eats.png",
         link: "https://github.com/jck13mad/HiddenEats-Frontend"
     },
     {
@@ -54,7 +54,7 @@ export const designProjects = [
     {
         id: 8,
         title: "Netflix Clone",
-        img: "../netflix-clone.jpg",
+        img: "./netflix-clone.jpg",
         link: ""
     }
 ]

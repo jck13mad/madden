@@ -40,7 +40,7 @@ function Intro(){
             </div>
 
             <div className={image ? 'image active' : 'image'}>
-                <img className="oldComputer animation sequence fadeInBottom" src='../oldComputer.png' alt="old computer"></img>
+                <img className="oldComputer animation sequence fadeInBottom" src='./oldComputer.png' alt="old computer"></img>
             </div>
         </div>
     )

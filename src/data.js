@@ -33,7 +33,7 @@ export const featuredProjects = [
     {
         id: 6,
         title: "Netflix Clone",
-        img: "netflix-clone.jpg",
+        img: "../netflix-clone.jpg",
         link: ""
     }
 ];
@@ -54,7 +54,7 @@ export const designProjects = [
     {
         id: 8,
         title: "Netflix Clone",
-        img: "netflix-clone.jpg",
+        img: "../netflix-clone.jpg",
         link: ""
     }
 ]

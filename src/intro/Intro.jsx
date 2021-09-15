@@ -19,7 +19,7 @@ function Intro(){
 
     const changeImage = () => {
         console.log(window.innerWidth)
-        if (window.innerWidth <= 1251) {
+        if (window.innerWidth <= 1265) {
             setImage(true);
         } else {
             setImage(false);
@@ -51,8 +51,8 @@ function Intro(){
                 </h2>
             </div>
 
-            <div className={image ? 'image active' : 'image'}>
-                <img className="oldComputer animation sequence fadeInBottom" src='./oldComputer.png' alt="old computer"></img>
+            <div className='image'>
+                <img className={image ? 'oldComputer animation sequence fadeInBottom active' : 'oldComputer animation sequence fadeInBottom'} src='./oldComputer.png' alt="old computer"></img>
             </div>
         </div>
     )

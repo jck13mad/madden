@@ -74,20 +74,16 @@
     width: auto;
 }
 
+.oldComputer.active {
+    height: 20px;
+    width: 50px;
+}
+
 .image {
     float: left;
     position: relative;
     top: 20vh;
     left: 12.5vw;
-}
-
-.image.active img {
-    left: auto;
-    right: auto;
-    float: none;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.3;
 }
 
 .animation {

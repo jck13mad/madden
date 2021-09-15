@@ -5,6 +5,7 @@ import './Navbar.scss'
 function Navbar() {
 
     const [ navbar, setNavbar] = useState(false)
+    const [list, setList ] = useState(false)
 
     const changeBackground = () => {
         // console.log(window.scrollY)
@@ -15,13 +16,22 @@ function Navbar() {
         }
     }
 
+    const changeList = () => {
+        if (window.innerWidth <= 800) {
+            setList(true);
+        } else {
+            setList(false)
+        }
+    }
+
     window.addEventListener('scroll', changeBackground)
+    window.addEventListener('resize', changeList)
 
     return(
         <div className={navbar ? 'navbar active' : 'navbar'} id="navbar">
             <h1>JM</h1>
             <nav>
-                <ul className="navbar-list">
+                <ul className={list ? 'navbar-list activate' : 'navbar-list'}>
                     <li>
                         <a href="#about">About</a>
                     </li>

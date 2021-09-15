@@ -31,7 +31,6 @@
     .navbar-list a {
         color: #fff0e5;
         transition: color 2s;
-        transition: background ease-in .5s;
     }
 
     .navbar-list a:hover {
@@ -53,10 +52,14 @@ nav ul {
     float: right;
     position: absolute;
     bottom: 2vh;
+    flex-wrap: wrap;
 }
 
 .navbar-list li {
     display: inline;
     margin-left: 4vw;
-    background: transparent;
+}
+
+.navbar-list.activate {
+    font-size: 13px;
 }

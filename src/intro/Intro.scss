@@ -44,7 +44,7 @@
     float: right;
     top: 70vh;
     right: -25vw;
-    width: 35vw;
+    width: 45vw;
     text-align: right;
     padding-top: 2vh;
 }
@@ -54,6 +54,12 @@
     text-align: right;
     font: 'Lato';
     color: #3a0fe5;
+}
+
+.name.activate {
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
 }
 
 // .image {
@@ -75,8 +81,12 @@
 }
 
 .image.active {
-    float: left;
-    top: 100px;
+    left: auto;
+    right: auto;
+    float: none;
+    justify-content: center;
+    align-items: center;
+    opacity: 30%;
 }
 
 .animation {

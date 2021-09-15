@@ -5,6 +5,8 @@ import "./Intro.scss";
 function Intro(){
     const textRef = useRef();
     const [ image, setImage] = useState(false)
+    const [ name, setName ] = useState(false)
+    // const [ text, setText ] = useState(false)
 
     useEffect(() => {
         init(textRef.current, {
@@ -15,23 +17,32 @@ function Intro(){
         })
     }, []);
 
-    const changeBackground = () => {
-        console.log(window.scrollX)
-        if (window.scrollX <= 100) {
+    const changeImage = () => {
+        console.log(window.innerWidth)
+        if (window.innerWidth <= 800) {
             setImage(true);
         } else {
             setImage(false);
         }
     }
 
-    window.addEventListener('scroll', changeBackground)
+    const changeName = () => {
+        console.log(window.innerWidth)
+        if (window.innerWidth <= 800) {
+            setName(true);
+        } else {
+            setName(false);
+        }
+    }
+
+    window.addEventListener('resize', changeImage && changeName)
+    
 
     return (
         <div className="intro" id="intro">
-            <div className="name">
+            <div className={name ? 'name activate' : 'name'}>
                 <h1>John</h1>
                 <h1>Madden</h1>
-                <h2>{window.addEventListener('scroll', console.log(window.scrollX))}</h2>
             </div>
             <div className="incoming animation sequence fadeInBottom">
                 <h2>
@@ -40,7 +51,7 @@ function Intro(){
             </div>
 
             <div className={image ? 'image active' : 'image'}>
-                <img className="oldComputer animation sequence fadeInBottom" src='../oldComputer.png' alt="old computer"></img>
+                <img className="oldComputer animation sequence fadeInBottom" src='./oldComputer.png' alt="old computer"></img>
             </div>
         </div>
     )

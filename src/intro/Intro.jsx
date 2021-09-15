@@ -35,7 +35,8 @@ function Intro(){
         }
     }
 
-    window.addEventListener('resize', changeImage && changeName)
+    window.addEventListener('resize', changeImage)
+    window.addEventListener('resize', changeName)
     
 
     return (

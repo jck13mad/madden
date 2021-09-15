@@ -40,6 +40,12 @@
     background: transparent;
 }
 
+.name.activate {
+    bottom: 0;
+    right: 0;
+    background: transparent;
+}
+
 .incoming {
     position: relative;
     float: right;
@@ -55,12 +61,6 @@
     text-align: right;
     font: 'Lato';
     color: #3a0fe5;
-}
-
-.name.activate {
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
 }
 
 // .image {

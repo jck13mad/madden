@@ -19,7 +19,7 @@ function Intro(){
 
     const changeImage = () => {
         console.log(window.innerWidth)
-        if (window.innerWidth <= 800) {
+        if (window.innerWidth <= 1251) {
             setImage(true);
         } else {
             setImage(false);

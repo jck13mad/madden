@@ -45,7 +45,7 @@ function Navbar() {
                         <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="./MaddenJohn(Jack)Resume.pdf" download="">Resume</a>
+                        <a href="./MaddenJohn(Jack)Resume.pdf" download>Resume</a>
                     </li>
                 </ul>
             </nav>

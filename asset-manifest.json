@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/madden/static/css/main.179903ce.chunk.css",
-    "main.js": "/madden/static/js/main.06bb09d0.chunk.js",
-    "main.js.map": "/madden/static/js/main.06bb09d0.chunk.js.map",
+    "main.js": "/madden/static/js/main.a9e190ad.chunk.js",
+    "main.js.map": "/madden/static/js/main.a9e190ad.chunk.js.map",
     "runtime-main.js": "/madden/static/js/runtime-main.d05c35cb.js",
     "runtime-main.js.map": "/madden/static/js/runtime-main.d05c35cb.js.map",
     "static/js/2.37255ba8.chunk.js": "/madden/static/js/2.37255ba8.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d05c35cb.js",
     "static/js/2.37255ba8.chunk.js",
     "static/css/main.179903ce.chunk.css",
-    "static/js/main.06bb09d0.chunk.js"
+    "static/js/main.a9e190ad.chunk.js"
   ]
 }

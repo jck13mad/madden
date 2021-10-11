@@ -30,11 +30,8 @@ function About() {
     return (
         <div className={size ? 'about active' : 'about'} id="about">
             <h1 className="about-title">About</h1>
-            <p className={content ? 'content activate' : 'content'}>Finishing Flatiron's Software Enigneering Bootcamp, I am excited and ready to begin my career in the field. 
-                Though I have little experience, I believe all of my projects establish the base of my knowledge of website 
-                creation. I am always learning, as one needs to do with Software Engineering, and love to face challenges that 
-                need to be worked through. I am currently freelancing website assistance, but would love to field emails of a 
-                position open for Junior - Mid-Level positions. Thank you!</p>
+            <p className={content ? 'content activate' : 'content'}>Hard-working and fun-loving recent Flatiron School graduate, 
+            looking to grow and achieve a junior web developer role. Thanks and feel free to connect with me!</p>
         </div>
     )
 }

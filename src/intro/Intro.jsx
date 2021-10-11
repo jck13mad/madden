@@ -42,7 +42,7 @@ function Intro(){
     return (
         <div className="intro" id="intro">
             <div className={name ? 'name activate' : 'name'}>
-                <h1>John</h1>
+                <h1>Jack</h1>
                 <h1>Madden</h1>
             </div>
             <div className="incoming animation sequence fadeInBottom">

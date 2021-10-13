@@ -26,15 +26,15 @@ export const featuredProjects = [
     },
     {
         id: 5,
-        title: "Covid-19 News Tracker",
-        img: "./covid-19.jpg",
-        link: "https://github.com/jck13mad/covid_19_updates"
+        title: "Don't Know: Sam Young",
+        img: "./dontknow.jpg",
+        link: "https://jck13mad.github.io/dontknow/"
     },
     {
         id: 6,
         title: "Netflix Clone",
         img: "./netflix-clone.jpg",
-        link: ""
+        link: "https://github.com/jck13mad/netflix-clone"
     }
 ];
 
@@ -55,6 +55,12 @@ export const designProjects = [
         id: 8,
         title: "Netflix Clone",
         img: "./netflix-clone.jpg",
-        link: ""
+        link: "https://github.com/jck13mad/netflix-clone"
+    },
+    {
+        id: 9,
+        title: "Don't Know: Sam Young",
+        img: "./dontknow.jpg",
+        link: "https://jck13mad.github.io/dontknow/"
     }
 ]

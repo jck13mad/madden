@@ -3,9 +3,25 @@ import './Blogs.scss';
 
 function Blogs() {
 
-    let [currentSlide, setCurrentSlide] = useState(1)
+    let [currentSlide, setCurrentSlide] = useState(0)
 
     const data = [
+        {
+            id: 1,
+            icon: './writing.png',
+            title: "Learning Typescript: Part 1",
+            desc: "Beginning of my Typescript journey.",
+            img: "./typescript.png",
+            link: "https://dev.to/john_madden_13/learning-typescript-part-1-3ll"
+        },
+        {
+            id: 2,
+            icon: './writing.png',
+            title: "Learning Typescript: Part 2",
+            desc: "Second installment of Typescript journey.",
+            img: "./typescript2.png",
+            link: "https://dev.to/john_madden_13/learning-typescript-part-2-l4k"
+        },
         {
             id: 1,
             icon: "./writing.png",

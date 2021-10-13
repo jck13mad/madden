@@ -40,25 +40,25 @@ export const featuredProjects = [
 
 export const designProjects = [
     {
-        id: 6,
+        id: 7,
         title: "Hidden Eats",
         img: "./hidden-eats.png",
         link: "https://github.com/jck13mad/HiddenEats-Frontend"
     },
     {
-        id: 7,
+        id: 8,
         title: "Portfolio Site v1",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvZ4bwLy9HnBbQxiLWzQkVn5YnWFRcrxRJw&usqp=CAU",
         link: "https://github.com/jck13mad/Personal-Portfolio"
     },
     {
-        id: 8,
+        id: 9,
         title: "Netflix Clone",
         img: "./netflix-clone.jpg",
         link: "https://github.com/jck13mad/netflix-clone"
     },
     {
-        id: 9,
+        id: 10,
         title: "Don't Know: Sam Young",
         img: "./dontknow.jpg",
         link: "https://jck13mad.github.io/dontknow/"

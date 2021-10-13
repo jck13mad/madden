@@ -23,7 +23,7 @@ function Blogs() {
             link: "https://dev.to/john_madden_13/learning-typescript-part-2-l4k"
         },
         {
-            id: 1,
+            id: 3,
             icon: "./writing.png",
             title: "Flatiron JS Project: Hidden Eats",
             desc: "Building Hidden Eats.",
@@ -31,7 +31,7 @@ function Blogs() {
             link: "https://jck13mad.blogspot.com/2021/04/flatiron-javascript-project-hidden-eats.html"
         },
         {
-            id: 2,
+            id: 4,
             icon: "./writing.png",
             title: "Flatiron Rails Project: Photo-Synthesis",
             desc: "Building Photo-Synthesis.",
@@ -39,7 +39,7 @@ function Blogs() {
             link: "https://jck13mad.blogspot.com/2021/02/flatiron-rails-project-photo-synthesis.html"
         },
         {
-            id: 3,
+            id: 5,
             icon: "./writing.png",
             title: "Why Software Engineering",
             desc: "How I chose this profession.",

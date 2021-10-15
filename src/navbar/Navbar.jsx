@@ -33,7 +33,7 @@ function Navbar() {
             <nav>
                 <ul className={list ? 'navbar-list activate' : 'navbar-list'}>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">About Me</a>
                     </li>
                     <li>
                         <a href="#projects">Projects</a>

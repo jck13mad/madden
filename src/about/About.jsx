@@ -29,7 +29,7 @@ function About() {
 
     return (
         <div className={size ? 'about active' : 'about'} id="about">
-            <h1 className="about-title">About</h1>
+            <h1 className="about-title">About Me</h1>
             <p className={content ? 'content activate' : 'content'}>Hard-working and fun-loving recent Flatiron School graduate, 
             looking to grow and achieve a junior web developer role. Thanks and feel free to connect with me!</p>
         </div>

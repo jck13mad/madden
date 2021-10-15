@@ -30,8 +30,10 @@ class Contact extends Component {
         )
         .then((result) => {
             console.log(result.text);
+            alert(`Thank you! I'll get back to you soon.`);
         }, (error) => {
             console.log(error.text);
+            alert(`Sorry, something went wrong. Contact me in one of the ways below.`);
         });
         this.resetForm()
     }
@@ -104,7 +106,8 @@ class Contact extends Component {
                                         required
                                     />
                             </FormGroup>
-                            <Button type="submit">Send It</Button>
+                            <Button id="submit" className="submit" type="submit" >Send It</Button>
+                            
                         </Form>
                     </div>
                     </div>

@@ -1,68 +1,26 @@
 import React, { useState } from 'react';
 import './Blogs.scss';
+import { blogs } from '../data';
 
 function Blogs() {
 
     let [currentSlide, setCurrentSlide] = useState(0)
 
-    const data = [
-        {
-            id: 1,
-            icon: './writing.png',
-            title: "Learning Typescript: Part 1",
-            desc: "Beginning of my Typescript journey.",
-            img: "./typescript.png",
-            link: "https://dev.to/john_madden_13/learning-typescript-part-1-3ll"
-        },
-        {
-            id: 2,
-            icon: './writing.png',
-            title: "Learning Typescript: Part 2",
-            desc: "Second installment of Typescript journey.",
-            img: "./typescript2.png",
-            link: "https://dev.to/john_madden_13/learning-typescript-part-2-l4k"
-        },
-        {
-            id: 3,
-            icon: "./writing.png",
-            title: "Flatiron JS Project: Hidden Eats",
-            desc: "Building Hidden Eats.",
-            img: "./blog-1.jpg",
-            link: "https://jck13mad.blogspot.com/2021/04/flatiron-javascript-project-hidden-eats.html"
-        },
-        {
-            id: 4,
-            icon: "./writing.png",
-            title: "Flatiron Rails Project: Photo-Synthesis",
-            desc: "Building Photo-Synthesis.",
-            img: "./blog-2.png",
-            link: "https://jck13mad.blogspot.com/2021/02/flatiron-rails-project-photo-synthesis.html"
-        },
-        {
-            id: 5,
-            icon: "./writing.png",
-            title: "Why Software Engineering",
-            desc: "How I chose this profession.",
-            img: "./blog-3.jpg",
-            link: "https://jck13mad.blogspot.com/2020/03/software-engineering-and-how.html"
-        }
-    ]
-
     const handleClick = (way) => {
-        way === 'left' ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : currentSlide = data.length-1 ) : 
-        setCurrentSlide(currentSlide < data.length - 1 ? currentSlide+1 : 0)
+        way === 'left' ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : currentSlide = blogs.length-1 ) : 
+        setCurrentSlide(currentSlide < blogs.length - 1 ? currentSlide+1 : 0)
         }
 
     return (
             <div className="blogs" id="blogs">
                 <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
-                    {data.map((d) => (
+                    {blogs.map((d) => (
                         <div className="contain">
                             <div className="item">
                                 <div className="left">
                                     <div className="leftContainer">
                                         <div className="blog-title">
-                                            <h3>Blog</h3>
+                                            <h3>Blog {d.id}</h3>
                                         </div>
                                         <div className="imgContainer">
                                             <img src={d.icon} alt="" />
@@ -84,7 +42,7 @@ function Blogs() {
                         <img src="./arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
                     ) : null
                 }
-                {currentSlide < data.length-1 ? 
+                {currentSlide < blogs.length-1 ? 
                     (
                         <img src="./arrow.png" className="arrow right" alt="" onClick={() => handleClick()}/>
                     ) : null

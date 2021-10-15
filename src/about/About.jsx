@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './About.scss';
 
 function About() {
-
+    
     const [ content, setContent] = useState(false)
     const [size, setSize ] = useState(false)
 

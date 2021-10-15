@@ -42,6 +42,8 @@
         position: relative;
         transition: all 1s ease;
         cursor: pointer;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 
         .project-name {
             position: absolute;
@@ -54,6 +56,8 @@
             object-fit: cover;
             z-index: 1;
             overflow: hidden;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         &:hover {
@@ -62,6 +66,8 @@
                 z-index: 0;
                 opacity: .2;
                 overflow: hidden;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
             }
         }
     }

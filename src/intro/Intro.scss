@@ -84,6 +84,9 @@
 .oldComputer {
     height: auto;
     width: auto;
+    position: absolute;
+    top: 20vh;
+    left: 12.5vw;
 }
 
 .oldComputer.active {
@@ -95,12 +98,12 @@
     width: 100px;
 }
 
-.image {
-    float: left;
-    position: absolute;
-    top: 20vh;
-    left: 12.5vw;
-}
+// .image {
+//     float: left;
+//     position: absolute;
+//     top: 20vh;
+//     left: 12.5vw;
+// }
 
 .animation {
     animation-duration: 3s;

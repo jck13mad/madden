@@ -46,10 +46,10 @@ function Intro(){
                 </h2>
             </div>
 
-            <div className='image'>
-                <img className={image ? 'oldComputer animation sequence fadeInBottom active' : 'oldComputer animation sequence fadeInBottom'} src='./oldComputer.png' alt="old computer"></img>
+            {/* <div className='image'> */}
+                <img className={image ? 'oldComputer animation sequence fadeInBottom active' : 'oldComputer animation sequence fadeInBottom'} src='../../oldComputer.png' alt="old computer"></img>
             </div>
-        </div>
+        // {/* </div> */}
     )
 }
 

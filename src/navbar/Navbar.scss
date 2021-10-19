@@ -9,10 +9,14 @@
     overflow: hidden;
 }
 
+.jm {
+    text-decoration: none;
+    color: goldenrod;
+}
+
 .navbar h1 {
     float: left;
     padding-left: 7vw;
-    color: goldenrod;
     font-size: 9vh;
     transition: color 1s;
 }
@@ -23,7 +27,7 @@
     overflow: hidden;
     border-bottom: 5px solid white;
 
-    h1 {
+    .jm {
         color: #fff0e5;
         transition: color 1s;
     }
@@ -47,6 +51,8 @@
 .navbar-list a:hover {
     color: #3a0fe5;
 }
+
+
 
 nav ul {
     float: right;

@@ -85,13 +85,21 @@ export const blogs = [
     {
         id: 3,
         icon: "./writing.png",
+        title: "Learning Typescript: Part 3",
+        desc: "Third article of my Typescript journey.",
+        img: "./typescript3.jpeg",
+        link: "https://dev.to/john_madden_13/learning-typescript-part-3-4hb0"
+    },
+    {
+        id: 4,
+        icon: "./writing.png",
         title: "Flatiron JS Project: Hidden Eats",
         desc: "Building Hidden Eats.",
         img: "./blog-1.jpg",
         link: "https://jck13mad.blogspot.com/2021/04/flatiron-javascript-project-hidden-eats.html"
     },
     {
-        id: 4,
+        id: 5,
         icon: "./writing.png",
         title: "Flatiron Rails Project: Photo-Synthesis",
         desc: "Building Photo-Synthesis.",
@@ -99,7 +107,7 @@ export const blogs = [
         link: "https://jck13mad.blogspot.com/2021/02/flatiron-rails-project-photo-synthesis.html"
     },
     {
-        id: 5,
+        id: 6,
         icon: "./writing.png",
         title: "Why Software Engineering",
         desc: "How I chose this profession.",

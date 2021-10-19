@@ -6,6 +6,7 @@ function Intro(){
     const textRef = useRef();
     const [ image, setImage] = useState(false)
     const [ name, setName ] = useState(false)
+    const [incoming, setIncoming] = useState(false)
     // const [ text, setText ] = useState(false)
 
     useEffect(() => {
@@ -35,8 +36,13 @@ function Intro(){
         }
     }
 
+    const changeIncoming = () => {
+        window.innerWidth <= 800 ? setIncoming(true) : setIncoming(false);
+    }
+
     window.addEventListener('resize', changeImage)
     window.addEventListener('resize', changeName)
+    window.addEventListener('resize', changeIncoming)
     
 
     return (
@@ -45,7 +51,7 @@ function Intro(){
                 <h1>Jack</h1>
                 <h1>Madden</h1>
             </div>
-            <div className="incoming animation sequence fadeInBottom">
+            <div className={incoming ? 'incoming animation sequence fadeInBottom activating' : 'incoming animation sequence fadeInBottom'}>
                 <h2>
                     <span ref={textRef}></span>
                 </h2>

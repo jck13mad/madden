@@ -38,12 +38,17 @@
     right: 12.5vw;
     padding-bottom: 10vh;
     background: transparent;
+    width: auto;
 }
 
 .name.activate {
-    bottom: 0;
-    right: 0;
-    background: transparent;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+    float: none;
 }
 
 .incoming {
@@ -54,6 +59,13 @@
     width: 45vw;
     text-align: right;
     padding-top: 2vh;
+}
+
+.incoming.activating {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .name h1 {
@@ -75,13 +87,17 @@
 }
 
 .oldComputer.active {
-    height: 120px;
-    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 300px;
 }
 
 .image {
     float: left;
-    position: relative;
+    position: absolute;
     top: 20vh;
     left: 12.5vw;
 }

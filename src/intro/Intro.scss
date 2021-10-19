@@ -48,8 +48,8 @@
     transform: translate(-50%, -50%);
     width: 500px;
     text-align: center;
-    float: none;
-    padding: none;
+    float: center;
+    padding-bottom: 0;
 }
 
 .incoming {
@@ -95,6 +95,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%), scale(0.25);
+    opacity: .5;
+    z-index: -1;
 }
 
 // .image {

@@ -29,7 +29,7 @@ function Navbar() {
 
     return(
         <div className={navbar ? 'navbar active' : 'navbar'} id="navbar">
-            <h1><a href="/" className="jm">JM</a></h1>
+            <h1><a href="#" className="jm">JM</a></h1>
             <nav>
                 <ul className={list ? 'navbar-list activate' : 'navbar-list'}>
                     <li>

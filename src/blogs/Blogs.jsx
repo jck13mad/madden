@@ -27,7 +27,7 @@ function Blogs() {
                                         </div>
                                         <h2>{d.title}</h2>
                                         <p>{d.desc}</p>
-                                        <a href={d.link}>View this blog.</a>
+                                        <a href={d.link} target="_blank" rel="noopener noreferrer">View this blog.</a>
                                     </div>
                                 </div>
                                 <div className="right">

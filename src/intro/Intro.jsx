@@ -20,24 +20,13 @@ function Intro(){
 
     const changeImage = () => {
         console.log(window.innerWidth)
-        if (window.innerWidth <= 1265) {
-            setImage(true);
-        } else {
-            setImage(false);
-        }
+        window.innerWidth <= 1267 ? setImage(true) : setImage(false);
     }
-
     const changeName = () => {
-        console.log(window.innerWidth)
-        if (window.innerWidth <= 800) {
-            setName(true);
-        } else {
-            setName(false);
-        }
+        window.innerWidth <= 1267 ? setName(true) : setName(false);
     }
-
     const changeIncoming = () => {
-        window.innerWidth <= 800 ? setIncoming(true) : setIncoming(false);
+        window.innerWidth <= 1267 ? setIncoming(true) : setIncoming(false);
     }
 
     window.addEventListener('resize', changeImage)

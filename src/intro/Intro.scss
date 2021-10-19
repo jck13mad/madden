@@ -58,10 +58,11 @@
     text-align: center;
     float: center;
     padding-bottom: 0;
+    z-index: 2;
 }
 
 .incoming {
-    position: absolute;
+    position: relative;
     float: right;
     top: 70vh;
     right: -25vw;
@@ -75,6 +76,7 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
 // .image {
@@ -95,9 +97,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%), scale(0.25);
-    opacity: .5;
-    z-index: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    opacity: 0.5;
+    z-index: 1;
 }
 
 // .image {

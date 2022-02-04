@@ -1,7 +1,7 @@
 @import '../global.scss';
 
 .projects {
-    background-color: #fff0E5;
+    background-color: #f1c0a5;
     width: 100%;
     height: 110vh;
     display: flex;
@@ -17,7 +17,7 @@
 .projects-title {
     padding-top: 10vh;
     font-size: 8vh;
-    color: goldenrod;
+    color: #5e2b38;
 }
 
 .container {
@@ -33,12 +33,12 @@
         width: 20vw;
         height: 23vh;
         border-radius: 20px;
-        border: 1px solid purple;
+        border: 1px solid #f9c0fe;
         margin: 2vw 2vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: #e1e1e1;
         position: relative;
         transition: all 1s ease;
         cursor: pointer;
@@ -61,7 +61,7 @@
         }
 
         &:hover {
-            background-color: #202c5e;
+            background-color: #3b4f51;
             img {
                 z-index: 0;
                 opacity: .2;

@@ -1,7 +1,7 @@
 @import "../global.scss";
 
 .intro {
-    background-color: #fff0E5;
+    background-color: #f1c0a5;
     width: 100%;
     height: 100vh;
 
@@ -19,7 +19,7 @@
 
   .ityped-cursor {
     animation: blink 1s infinite;
-    color: #3a0fe5;
+    color: #3b4f51;
   }
 
   @keyframes blink {
@@ -46,14 +46,14 @@
     font-size: 10vw;
     text-align: right;
     font: 'Lato';
-    color: #3a0fe5;
+    color: #5e2b38;
 }
 
 .name.activate {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     width: 500px;
     text-align: center;
     float: center;
